@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/assets', static_folder='assets')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///bookings.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
