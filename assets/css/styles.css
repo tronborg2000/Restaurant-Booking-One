@@ -17,3 +17,55 @@ body {
 .btn-fa:hover {
   color: #666;
 }
+
+/* General styling */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* Hero section */
+.hero-section {
+  height: 80vh;
+  background-image: url("/static/images/heroimage.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  max-width: 80%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #1c2331;
+  border-color: #1c2331;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0a0e14;
+  border-color: #0a0e14;
+}
