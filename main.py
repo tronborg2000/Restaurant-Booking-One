@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
+from datetime import datetime
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///bookings.db'
@@ -37,9 +38,14 @@ def submit_booking():
     name = request.form['name']
     email = request.form['email']
     phone = request.form['phone']
-    date = request.form['date']
-    time = request.form['time']
-    guests = request.form['guests']
+
+    try:
+        date = datetime.strptime(request.form['date'], '%Y-%m-%d').date()
+        time = datetime.strptime(request.form['time'], '%H:%M').time()
+    except ValueError:
+        return render_template('booking.html', error="Invalid date or time format. Please try again.")
+
+    guests = int(request.form['guests'])
 
     if is_available(date, time):
         save_booking(name, email, phone, date, time, guests)
