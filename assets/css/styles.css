@@ -32,11 +32,12 @@ body {
 /* Hero section */
 .hero-section {
   height: 80vh;
-  background-image: url("/static/images/heroimage.jpg");
+  background-image: url("/assets/images/heroimage.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
 }
+
 
 .hero-text {
   position: absolute;
