@@ -11,10 +11,27 @@ A full-stack web application that allows users to book tables at the SPORK Resta
 5. [Data Schema](#data-schema)
 6. [Contributing](#contributing)
 7. [License](#license)
+8. [Learning Outcomes](#learning-outcomes)
 
 ## Project Overview
 
 The SPORK Restaurant Booking System is designed to provide an easy and intuitive way for users to book a table at the restaurant. This application has been developed using Flask, a lightweight Python web framework, with a SQLite database for data storage. The front-end of the application is built using Bootstrap, providing a responsive and accessible user interface.
+
+
+
+## Screenshots
+
+![Front page top](assets/images/frontpagetop.jpg)
+*Home page menu, navigation, and hero section*
+
+![Front page bottom](assets/images/frontpagebottom.jpg)
+*Home page bottom with address and dynamic social media icons*
+
+![Social icons](assets/images/socialicons.jpg)
+*Social media icons with hover effects*
+
+![Booking thank you](assets/images/bookingthankyouscreenshot.jpg)
+*Thank you JavaScript dropdown on booking submission*
 
 ## Installation
 
@@ -87,6 +104,35 @@ If you'd like to contribute to this project, please follow these steps:
 3. Make your changes and commit them with clear, descriptive commit messages.
 4. Push your changes to the remote repository.
 5. Create a pull request describing the changes you've made.
+
+## Learning Outcomes
+
+### LO1 - Agile Methodology & Design
+
+We utilized Agile methodology during the planning and design stages of the project. This involved creating user stories and prioritizing features through iterative sprints. Wireframes and mockups were created to guide the development process, ensuring a user-focused design.
+
+### LO2 - Data Model & Application Features
+
+A custom data model was implemented to manage, query, and manipulate booking data in the restaurant domain. CRUD functionality allows users to create, locate, display, edit, and delete booking records.
+
+### LO3 - Authorisation, Authentication & Permissions
+
+Role-based login and registration functionality were implemented to secure access to the application's features. Restricted content is only accessible to authenticated users.
+
+### LO4 - Testing
+
+Manual testing was performed to assess the functionality, usability, responsiveness, and data management of the entire web application. The application was tested on various devices and screen sizes to ensure a consistent user experience.
+
+### LO5 - Version Control with Git & GitHub
+
+The project was developed and maintained using Git and GitHub for version control. Commits were made regularly with descriptive messages to document the development process.
+
+### LO6 - Deployment
+
+The application was deployed to a cloud-based platform, ensuring that the final deployed version matches the development version. Security measures were implemented to protect sensitive information and hide secret keys in environment variables or in .gitignore files.
+
+### LO7 - Object-Based Software Concepts
+
 
 ## License
 
