@@ -131,6 +131,10 @@ body {
 /* Menu section */
 .menu-hero-section {
   background-image: url('/assets/images/menu.jpg');
+  height: calc(50vh - 62px);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 footer {
@@ -178,3 +182,18 @@ footer {
 .fa-twitter:hover:before {
   color: #1da1f2;
 }
+
+@media (max-width: 576px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .booking-form {
+    padding: 1rem;
+  }
+}
+
