@@ -29,7 +29,7 @@ def is_available(date, time):
 def home():
     return render_template('index.html')
 
- @app.route('/menu')
+@app.route('/menu')
 def menu():
     return render_template('menu.html')
    
