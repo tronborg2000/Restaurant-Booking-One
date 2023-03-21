@@ -80,6 +80,8 @@ def cancel_booking():
 
     return render_template('cancel_booking.html', success=success, error=error)
 
+
 if __name__ == '__main__':
+    db.create_all()
     app.run(debug=True, port=5001)
 
