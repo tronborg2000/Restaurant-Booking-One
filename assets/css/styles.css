@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
-
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
-
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -53,7 +51,6 @@ body {
   position: relative;
 }
 
-
 .hero-text-wrapper {
   position: absolute;
   top: 50%;
@@ -92,7 +89,6 @@ body {
   margin-top: 20px;
 }
 
-
 /* Buttons */
 .btn-primary {
   background-color: #1c2331;
@@ -105,6 +101,7 @@ body {
   border-color: #0a0e14;
 }
 
+/* Booking section */
 .booking-section {
   height: 80vh;
   background-image: url('/assets/images/booking.jpg');
@@ -121,7 +118,6 @@ body {
   width: 100%;
 }
 
-
 .booking-section h2 {
   color: #1c2331;
   font-weight: 700;
@@ -129,63 +125,9 @@ body {
 
 .booking-section form .form-control {
   border-radius: 5px;
-  border: 1px solid
+  border: 1px solid;
 }
 
+/* Menu section */
 .menu-hero-section {
-  background-image: url('/assets/images/menu.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-footer {
-  background-color: #1c2331;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 30px;
-  color: #fff;
-  text-decoration: none;
-  position: relative;
-}
-
-.social-icons a:hover i:before {
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-.social-icons a:hover i {
-  color: #ffcc00;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00, 0 0 80px #ffcc00;
-  }
-}
-
-.fa-facebook-f:hover:before {
-  color: #3b5998;
-}
-
-.fa-instagram:hover:before {
-  color: #c13584;
-}
-
-.fa-twitter:hover:before {
-  color: #1da1f2;
-}
-
+  background-image: url('/assets/images/menu
