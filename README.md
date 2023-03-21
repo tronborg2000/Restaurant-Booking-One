@@ -95,6 +95,11 @@ The data schema for the booking system consists of a single `Booking` model with
 - `time`: Time, not nullable
 - `guests`: Integer, not nullable
 
+## Deployment
+
+This application is deployed on Heroku. You can access the live version here: [https://spork.herokuapp.com/](https://spork.herokuapp.com/)
+
+
 ## Contributing
 
 If you'd like to contribute to this project, please follow these steps:
