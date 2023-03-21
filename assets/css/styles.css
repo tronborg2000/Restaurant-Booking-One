@@ -36,6 +36,14 @@ body {
   padding-bottom: 0.75rem;
 }
 
+.nav-item a:hover {
+  background-color: #1c2331;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
 /* Hero section */
 .hero-section {
   height: calc(100vh - 62px);
@@ -75,6 +83,15 @@ body {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
+
+.info-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
 
 /* Buttons */
 .btn-primary {
