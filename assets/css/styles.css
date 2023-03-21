@@ -142,3 +142,50 @@ body {
   align-items: center;
   color: #fff;
 }
+
+footer {
+  background-color: #1c2331;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.social-icons a:hover i:before {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.social-icons a:hover i {
+  color: #ffcc00;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00, 0 0 80px #ffcc00;
+  }
+}
+
+.fa-facebook-f:hover:before {
+  color: #3b5998;
+}
+
+.fa-instagram:hover:before {
+  color: #c13584;
+}
+
+.fa-twitter:hover:before {
+  color: #1da1f2;
+}
+
