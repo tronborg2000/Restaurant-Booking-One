@@ -33,6 +33,10 @@ The SPORK Restaurant Booking System is designed to provide an easy and intuitive
 ![Booking thank you](assets/images/bookingthankyouscreenshot.jpg)
 *Thank you JavaScript dropdown on booking submission*
 
+![Cancel booking](assets/images/cancel_booking.jpg)
+*Cancel booking page with form to enter booking ID*
+
+
 ## Installation
 
 1. Clone this repository:
@@ -73,6 +77,9 @@ After successfully installing and running the application, visit `http://127.0.0
 
 To book a table, click on the "Book Now" button on the homepage or visit the `/booking` page.
 
+To cancel a booking, click on the "Cancel Booking" button on the homepage or visit the `/cancel_booking` page.
+
+
 ## Features
 
 1. **Responsive Design**: The application is designed to be responsive and accessible, ensuring a seamless user experience across various devices and screen sizes.
@@ -82,6 +89,9 @@ To book a table, click on the "Book Now" button on the homepage or visit the `/b
 3. **CRUD Functionality**: The application supports Create, Read, Update, and Delete (CRUD) operations for bookings.
 
 4. **Availability Check**: The system checks the availability of the selected date and time before allowing the user to book a table.
+
+5. **Cancel Booking**: Users can cancel their bookings by providing their booking ID on the cancel booking page.
+
 
 ## Data Schema
 
