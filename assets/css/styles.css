@@ -131,3 +131,14 @@ body {
   border-radius: 5px;
   border: 1px solid
 }
+
+.menu-hero-section {
+  background-image: url('/assets/images/menu.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
