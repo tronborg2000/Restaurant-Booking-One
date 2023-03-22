@@ -33,7 +33,7 @@ The SPORK Restaurant Booking System is designed to provide an easy and intuitive
 ![Booking thank you](assets/images/bookingthankyouscreenshot.jpg)
 *Thank you JavaScript dropdown on booking submission*
 
-![Cancel booking](assets/images/cancel_booking.jpg)
+![Cancel booking](assets/images/cancelbooking.jpg)
 *Cancel booking page with form to enter booking ID*
 
 

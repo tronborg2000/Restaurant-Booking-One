@@ -25,3 +25,9 @@
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify"
 }
+
+{
+   "python.pythonPath": "venv\\Scripts\\python.exe",
+   "python.linting.pycodestyleEnabled": true
+}
+

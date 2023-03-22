@@ -39,28 +39,33 @@
   
   <section class="booking-section">
     <div class="container">
-      <form class="booking-form" id="booking-form">
+      {% if success %}
+    <div class="alert alert-success">{{ success }}</div>
+{% endif %}
+{% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+{% endif %}
 
-       
+      <form class="booking-form" id="booking-form" method="POST" action="{{ url_for('booking') }}">
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
         </div>
         <div class="mb-3">
           <label for="phone" class="form-label">Phone number</label>
-          <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
         </div>
         <div class="mb-3">
           <label for="date" class="form-label">Date</label>
-          <input type="date" class="form-control" id="date">
+          <input type="date" class="form-control" id="date" name="date">
         </div>
         <div class="mb-3">
           <label for="time" class="form-label">Time</label>
-          <input type="time" class="form-control" id="time">
+          <input type="time" class="form-control" id="time" name="time">
         </div>
         <div class="mb-3">
           <label for="guests" class="form-label">Number of guests</label>
@@ -73,6 +78,7 @@
         
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
+      
     </div>
   </section>
   
