@@ -1,5 +1,5 @@
 function sendEmail(templateParams) {
-  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+  emailjs.send("SPORKRESTAURANT", "template_sx38s3g", templateParams)
     .then(
       function (response) {
         console.log("SUCCESS!", response.status, response.text);
@@ -9,6 +9,7 @@ function sendEmail(templateParams) {
       }
     );
 }
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const bookingForm = document.getElementById("booking-form");
